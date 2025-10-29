@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Secrets
+.gemini/
+.env
+*.key
+*.pem
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Files we explicitly EXCLUDE
+mcp_server.py
+*.tmp
+*.bak
